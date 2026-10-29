@@ -32,13 +32,18 @@ the Artifact assessment reads source and cannot run the journey on your behalf.
 - Submit your application revision and concise handover instructions sufficient for another
   developer to set up, run and maintain your implementation. Identify reused work and your changes.
 - Include your verification code and fictional cases with independently justified expected
-  results. Explain which client risks your checks cover and what remains untested. Another
+  results. Cover source edits during extraction and a failed attempt after an earlier success, with
+  independently expected state and exported facts. Explain which other client risks your checks
+  cover and what remains untested. Another
   developer should be able to repeat your checks from the submitted project.
 - Include the actual prompt/provider integration and an executable extraction evaluator.
-  Compare a baseline and one intentional revision on the same cases. Report field correctness
+  Compare a baseline and one intentional revision on the same cases. Identify each candidate
+  prompt/model/settings and preprocessing/parser path, and which configuration the application
+  adopts; disclose any later untested change rather than attributing an older score to it. Report field correctness
   separately from missing/conflicting-information warnings and describe the scoring method.
   An unsuccessful improvement is a valid finding; label measured and unavailable results honestly.
-- Design and explain your development cases. The trainer supplies a genuinely disjoint synthetic
+- Design and explain your development cases, including unknown versus zero amounts, unresolved
+  conflicting statements versus explicit corrections, and a later statement that is not a correction. The trainer supplies a genuinely disjoint synthetic
   set for the final evaluation, under the same input/business rules. Freeze the candidate first.
   Earlier repository revisions and their labels are known development material, never held-out
   evidence. A report is not independent proof of an executed experiment.
@@ -114,11 +119,19 @@ model calls, tests, static checks or deployment. Submitted reports are not indep
 execution. The trainer separately verifies actual client acceptance and required experiments or
 collaboration. A code-only score cannot certify course completion while those checks are open.
 Ownership uses only eligible attributed human session turns, submitted through the approved
-private channel. Missing logs leave Ownership unassessed; an essay cannot replace them. Ownership concerns
+private channel. Once a usable private capture/submission route is supplied, missing required session evidence
+is assessed as not demonstrating the corresponding Ownership ability; an essay cannot replace it.
+A capture/import fault is handled by the assessment team rather than charged as non-submission. Ownership concerns
 bounded decisions during the work: what you choose, what evidence informs it and its limits.
 There is no prompt-count, outside-research or mistake quota. You may accept an assistant's sound
 suggestion with your own concrete appraisal; you need not discover an issue first. Do not paste
 retrospective claims as a substitute for an actual decision or expose private logs publicly.
+
+Required submission outcomes are assessed individually. Not submitting a required answer or
+implementation, submitting an empty/placeholder answer, or leaving a required question unanswered
+means that the corresponding ability is not demonstrated. Confirmed assessment-system loss of
+submitted evidence is repaired and reassessed. A file name, number of tests or technology choice
+does not by itself earn credit.
 
 Assessment considers the correctness of the product, the quality and safety of its engineering,
 reproducibility of the handover, and the evidence behind your decisions. You are responsible for
