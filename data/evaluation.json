@@ -1,0 +1,188 @@
+[
+  {
+    "note_id": "N001",
+    "case_reference": "C-101",
+    "event_date": "2026-10-01",
+    "amount": "120.00",
+    "issue": "Missing receipt",
+    "next_action": "Request receipt",
+    "warnings": []
+  },
+  {
+    "note_id": "N002",
+    "case_reference": "C-102",
+    "event_date": "2026-10-02",
+    "amount": "45.50",
+    "issue": "Address correction",
+    "next_action": "Confirm address",
+    "warnings": []
+  },
+  {
+    "note_id": "N003",
+    "case_reference": "C-103",
+    "event_date": "2026-10-03",
+    "amount": null,
+    "issue": "Amount missing",
+    "next_action": "Ask sender",
+    "warnings": [
+      "amount missing"
+    ]
+  },
+  {
+    "note_id": "N004",
+    "case_reference": "C-104",
+    "event_date": null,
+    "amount": "300.00",
+    "issue": "Date missing",
+    "next_action": "Confirm date",
+    "warnings": [
+      "event date missing"
+    ]
+  },
+  {
+    "note_id": "N005",
+    "case_reference": "C-105",
+    "event_date": "2026-10-05",
+    "amount": "0.00",
+    "issue": "No amount due",
+    "next_action": "Archive after review",
+    "warnings": []
+  },
+  {
+    "note_id": "N006",
+    "case_reference": "C-106",
+    "event_date": "2026-10-06",
+    "amount": "1500.25",
+    "issue": "Payment inquiry",
+    "next_action": "Check payment",
+    "warnings": []
+  },
+  {
+    "note_id": "N007",
+    "case_reference": "C-107",
+    "event_date": "2026-10-07",
+    "amount": "87.10",
+    "issue": "Document mismatch",
+    "next_action": "Compare documents",
+    "warnings": []
+  },
+  {
+    "note_id": "N008",
+    "case_reference": "C-108",
+    "event_date": "2026-10-08",
+    "amount": "29.99",
+    "issue": "Duplicate letter",
+    "next_action": "Confirm duplicate",
+    "warnings": []
+  },
+  {
+    "note_id": "N009",
+    "case_reference": "C-109",
+    "event_date": "2026-10-09",
+    "amount": "100.00",
+    "issue": "Balance question",
+    "next_action": "Ask reviewer",
+    "warnings": []
+  },
+  {
+    "note_id": "N010",
+    "case_reference": "C-110",
+    "event_date": "2026-10-10",
+    "amount": "50.00",
+    "issue": "Receipt unclear",
+    "next_action": "Request clearer copy",
+    "warnings": []
+  },
+  {
+    "note_id": "N011",
+    "case_reference": "C-111",
+    "event_date": "2026-10-11",
+    "amount": "75.25",
+    "issue": "Missing page",
+    "next_action": "Request page",
+    "warnings": []
+  },
+  {
+    "note_id": "N012",
+    "case_reference": "C-112",
+    "event_date": "2026-10-12",
+    "amount": "10.00",
+    "issue": "Wrong reference",
+    "next_action": "Confirm reference",
+    "warnings": []
+  },
+  {
+    "note_id": "N013",
+    "case_reference": "C-113",
+    "event_date": "2026-10-13",
+    "amount": "200.00",
+    "issue": "Payment pending",
+    "next_action": "Check next day",
+    "warnings": []
+  },
+  {
+    "note_id": "N014",
+    "case_reference": "C-114",
+    "event_date": "2026-10-14",
+    "amount": "99.00",
+    "issue": "Amount correction",
+    "next_action": "Verify correction",
+    "warnings": []
+  },
+  {
+    "note_id": "N015",
+    "case_reference": "C-115",
+    "event_date": "2026-10-15",
+    "amount": "15.00",
+    "issue": "Unmatched note",
+    "next_action": "Locate original",
+    "warnings": []
+  },
+  {
+    "note_id": "N016",
+    "case_reference": "C-116",
+    "event_date": "2026-10-16",
+    "amount": "600.00",
+    "issue": "Late document",
+    "next_action": "Review document",
+    "warnings": []
+  },
+  {
+    "note_id": "N017",
+    "case_reference": "C-117",
+    "event_date": "2026-10-17",
+    "amount": "18.75",
+    "issue": "Follow-up needed",
+    "next_action": "Call internal desk",
+    "warnings": []
+  },
+  {
+    "note_id": "N018",
+    "case_reference": "C-118",
+    "event_date": "2026-10-18",
+    "amount": "220.00",
+    "issue": "Delivery question",
+    "next_action": "Check tracking",
+    "warnings": []
+  },
+  {
+    "note_id": "N019",
+    "case_reference": "C-119",
+    "event_date": "2026-10-19",
+    "amount": "35.00",
+    "issue": "Case reopened",
+    "next_action": "Review prior note",
+    "warnings": []
+  },
+  {
+    "note_id": "N020",
+    "case_reference": "C-120",
+    "event_date": "2026-10-20",
+    "amount": null,
+    "issue": "Conflicting amounts",
+    "next_action": "Ask reviewer",
+    "warnings": [
+      "conflicting amounts; no confirmed correction"
+    ]
+  }
+]

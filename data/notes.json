@@ -1,0 +1,82 @@
+[
+  {
+    "note_id": "N001",
+    "text": "C-101 — handoff from the morning desk, 2026-10-01. The receipt is missing from the USD 120.00 case. Please request the receipt before the next shift reviews it."
+  },
+  {
+    "note_id": "N002",
+    "text": "On 2026-10-02 we picked up C-102 (USD 45.50). The issue is an address correction. Next shift: confirm the address with the internal desk; do not change it based on this note alone."
+  },
+  {
+    "note_id": "N003",
+    "text": "2026-10-03 / C-103. We have the case but the amount was not included in the handoff. Ask the sender to supply the amount."
+  },
+  {
+    "note_id": "N004",
+    "text": "C-104 has USD 300.00 attached. The event date is missing from the copied message. Please confirm the date; the date this file is received is not the event date."
+  },
+  {
+    "note_id": "N005",
+    "text": "C-105, noted 2026-10-05: no amount is due (USD 0.00). Archive after review. Zero is the stated amount, not missing information."
+  },
+  {
+    "note_id": "N006",
+    "text": "C-106: Payment inquiry. Noted 2026-10-06. Amount USD 1,500.25. Next action: Check payment."
+  },
+  {
+    "note_id": "N007",
+    "text": "C-107, 2026-10-07. The documents do not match. Stated amount USD 87.10. Compare the documents before the coordinator proceeds."
+  },
+  {
+    "note_id": "N008",
+    "text": "Next: Confirm duplicate\nIssue: Duplicate letter\nReference: C-108\nDate: 2026-10-08\nUSD 29.99"
+  },
+  {
+    "note_id": "N009",
+    "text": "Balance question on C-109, 2026-10-09, USD 100.00. Ask the reviewer to confirm the case details. This message does not authorize a payment."
+  },
+  {
+    "note_id": "N010",
+    "text": "C-110 was checked on 2026-10-10. The receipt for USD 50.00 is too unclear to read confidently. Request a clearer copy."
+  },
+  {
+    "note_id": "N011",
+    "text": "For the next shift: request the missing page for C-111. The handoff is dated 2026-10-11 and gives USD 75.25."
+  },
+  {
+    "note_id": "N012",
+    "text": "Next: Confirm reference\nIssue: Wrong reference\nReference: C-112\nDate: 2026-10-12\nUSD 10.00"
+  },
+  {
+    "note_id": "N013",
+    "text": "C-113, 2026-10-13: payment pending, USD 200.00. Check next day. Do not mark this as paid just because the amount is known."
+  },
+  {
+    "note_id": "N014",
+    "text": "C-114, 2026-10-14. Earlier note said USD 90.00; correction: the amount is USD 99.00. Amount correction. Next action: Verify correction."
+  },
+  {
+    "note_id": "N015",
+    "text": "C-115 — 2026-10-15 — USD 15.00. We have an unmatched note. Locate the original so the coordinator can compare it."
+  },
+  {
+    "note_id": "N016",
+    "text": "A late document arrived for C-116 on 2026-10-16, relating to USD 600.00. Review the document next."
+  },
+  {
+    "note_id": "N017",
+    "text": "Next: Call internal desk\nIssue: Follow-up needed\nReference: C-117\nDate: 2026-10-17\nUSD 18.75"
+  },
+  {
+    "note_id": "N018",
+    "text": "C-118: delivery question, 2026-10-18. The stated case amount is USD 220.00. Check tracking; the reference is the case reference, not a parcel number."
+  },
+  {
+    "note_id": "N019",
+    "text": "C-119 was reopened on 2026-10-19. Amount USD 35.00. Review the prior note before deciding anything else."
+  },
+  {
+    "note_id": "N020",
+    "text": "C-120, 2026-10-20. One colleague says USD 40.00; another says USD 60.00. No correction confirmed. Conflicting amounts. Next action: Ask reviewer."
+  }
+]
