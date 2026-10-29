@@ -5,51 +5,43 @@ notes. The trainer supplies model access, current tool/data policy and private s
 
 ## Starting boundary
 
-The Week 1 starter supplies a bootable FastAPI/uv project, a plain page shell, health response,
-Python/dependency setup, an optional APP_TITLE example, ignore rules and three bootstrap tests.
-It also includes twenty fictional notes with public development labels and three follow-up notes.
-It implements none of the five business features. Choose your frontend, durable storage, model
-integration and evaluator. There is no login, serverless, custom schema editor or approval UI
-requirement. All supplied bootstrap controls are trainer work and earn no new implementation
-credit; maintain the example, ignore rules, declarations and tests as you add real functionality.
+The starter contains assignment documents only. Create your project, development environment,
+application and verification approach. FastAPI and uv are course constraints; frontend, storage,
+model integration and application structure are your choices. There is no login, serverless,
+custom schema editor or approval UI requirement. Continue this same project in Week 2.
 
-Use only this Week 1 starter. Continue your completed repository in Week 2. The trainer must
-supply the published learner entry and approved service/policy/session access before assignment;
-a locally runnable starter does not establish those external prerequisites.
+The trainer supplies approved model access, current data/tool policy and private session capture.
+Missing access must be resolved with the trainer before the dependent activity. Do not use real
+case information or expose credentials or private session logs in a submission.
 
-## Input and acceptance details
+## Input contract and client acceptance
 
-The import files are JSON arrays with note_id and text; their note_id is an incoming identifier,
-not a requirement to use it as your saved-record key. The coordinator enters the batch name/date.
-All amounts mean USD. Public data/evaluation.json labels support development only and must never
-enter model input or the production extraction path. Add your own tests; no model replay is supplied.
+Import files are JSON arrays with note_id and text. The incoming identifier need not be your
+saved-record key. The coordinator supplies the batch name/date; amounts mean USD. Use the raw
+client examples to understand the task, then create your own fictional input and evaluation
+material. No test suite, ready-made dataset or expected-output labels are supplied in this revision.
 
-Use the client's full handover journey to verify each feature. Save a mixed batch, stop and
-restart the application process, then verify note text, batch membership, links, extraction
-state/results, lookup, counts and export. Closing a browser alone does not test durable storage.
-Also check a failed first extraction followed by an edit: it needs updating even without an older
-successful result. An edit before any extraction stays not processed. Edits during processing
-keep that processing indication plus source-changed information until the attempt finishes.
+Demonstrate the complete client handover journey, including returning to the saved work after
+the application process has stopped and restarted. The trainer verifies actual product behavior;
+the Artifact assessment reads source and cannot run the journey on your behalf.
 
 ## What to submit and demonstrate
 
-- Submit the application revision, uv dependency declarations and lockfile, safe configuration
-  example, startup/storage instructions and source identifying your changes. Keep the lockfile
-  even though this Engine's text preprocessing cannot inspect its contents; the trainer checks
-  packaging separately.
-- Include synthetic input fixtures for notes across two batches, edits, missing/conflicting facts,
-  zero amounts and failures. The trainer uses the client walkthrough for runtime acceptance;
-  code-only grading inspects the corresponding implementation paths.
-- Include the actual prompt/provider integration, environment-based model settings and an
-  executable evaluator whose answer labels never enter production/model inputs. Compare a
-  baseline and one intentional revision on the same cases. Keep case-level outputs and report
-  field correctness separately from warning behavior. Failed improvement is a valid finding.
-- Use the supplied 20-note development material and a few justified challenge cases. Before
-  assignment the trainer provides a disjoint synthetic evaluation set under the same rules.
-  Freeze your candidate before running it. Label measured, assumed and unavailable results;
-  an evaluation script or report does not independently prove a run to the Engine.
-- Submit answers.md for Q1–Q5, grounded in your source and any clearly attributed observations.
-  Include a compact data-flow/model sketch. There is no minimum word count or architecture size.
+- Submit your application revision and concise handover instructions sufficient for another
+  developer to set up, run and maintain your implementation. Identify reused work and your changes.
+- Include your verification code and fictional cases with independently justified expected
+  results. Explain which client risks your checks cover and what remains untested. Another
+  developer should be able to repeat your checks from the submitted project.
+- Include the actual prompt/provider integration and an executable extraction evaluator.
+  Compare a baseline and one intentional revision on the same cases. Report field correctness
+  separately from missing/conflicting-information warnings and describe the scoring method.
+  An unsuccessful improvement is a valid finding; label measured and unavailable results honestly.
+- Design and explain your development cases. The trainer supplies a genuinely disjoint synthetic
+  set for the final evaluation, under the same input/business rules. Freeze the candidate first.
+  Earlier repository revisions and their labels are known development material, never held-out
+  evidence. A report is not independent proof of an executed experiment.
+- Submit answers.md for Q1–Q5, grounded in your source and clearly attributed observations,
+  including a compact data-flow/model sketch. There is no minimum word count.
 
 ## Technical essays
 
@@ -126,19 +118,11 @@ There is no prompt-count, outside-research or mistake quota. You may accept an a
 suggestion with your own concrete appraisal; you need not discover an issue first. Do not paste
 retrospective claims as a substitute for an actual decision or expose private logs publicly.
 
-Professional baseline expectations are functional environment-based settings, safe matching
-configuration examples, server-side credentials, appropriate dependency/startup declarations,
-ignore rules for local secrets and a usable static-analysis command covering your application.
-Do not submit actual secrets. A model identifier, package version and source revision are different
-things; document and configure each where it belongs. Existing trainer-supplied setup earns no
-new implementation credit. Choose suitable tools; installing a named package is not the outcome.
-
-Additional quality is assessed where it improves this workbench: handling invalid inputs and
-partial failures, protecting data and boundaries, controlling resource use, diagnosing problems,
-maintaining coherent code and usable interactions. The client does not prescribe those solutions.
-You may use simple designs; no queue, cache, extra service, class count or visual-polish quota is
-required. State your expected usage, assumptions, supported limits and what would make you change
-your design. An implemented useful safeguard and an unimplemented proposal are reported separately.
+Assessment considers the correctness of the product, the quality and safety of its engineering,
+reproducibility of the handover, and the evidence behind your decisions. You are responsible for
+choosing and implementing suitable controls; the assignment does not prescribe an engineering
+checklist or a preferred architecture. A technology name or file's existence alone earns no credit.
+Report assumptions and limitations honestly. Reused work is not a new implementation contribution.
 
 At least four hours of substantive work is the design goal, not a scored duration. Workload has
 not been validated with representative learners. Additional features are not needed for credit.

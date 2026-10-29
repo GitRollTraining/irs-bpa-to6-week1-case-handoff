@@ -15,7 +15,7 @@ Northstar and all supplied case information are fictional training examples.
 
 ## 1. Keep the shift's notes together
 
-I want to create a handoff batch with a name and date, bring in the supplied notes file and add
+I want to create a handoff batch with a name and date, bring in a notes file and add
 late notes directly on the page. I also need to edit a note when the sender provides a correction.
 Each note should have a link I can return to, even after its text or case reference changes.
 
@@ -102,3 +102,13 @@ overview and download the handoff. Then I will add Tuesday's update for one of M
 and find both notes through case search. Finally, I will correct Monday's note to a different
 case, ask for updated extraction and check the search and export again. Closing and reopening
 the workspace should not lose any of this work.
+
+## Examples of the messages we receive
+
+These fictional messages illustrate the source wording, not finished handoff-table answers:
+
+> C-101 — handoff from the morning desk, 2026-10-01. The receipt is missing from the USD 120.00 case. Please request the receipt before the next shift reviews it.
+
+> 2026-10-03 / C-103. We have the case but the amount was not included in the handoff. Ask the sender to supply the amount.
+
+> C-105, noted 2026-10-05: no amount is due (USD 0.00). Archive after review. Zero is the stated amount, not missing information.
