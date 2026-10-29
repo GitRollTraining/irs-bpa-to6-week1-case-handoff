@@ -5,9 +5,11 @@ notes. The trainer supplies model access, current tool/data policy and private s
 
 ## Starting boundary
 
-The starter contains assignment documents only. Create your project, development environment,
-application and verification approach. FastAPI and uv are course constraints; frontend, storage,
-model integration and application structure are your choices. There is no login, serverless,
+The starter contains a minimal React page with pnpm/Vite setup and the assignment documents.
+Follow README.md to run it and make your first visible edit. Build your FastAPI backend and its
+uv environment, application features and verification approach. FastAPI and uv are course
+constraints; storage, model integration and application structure are your choices. The supplied
+frontend setup earns no learner implementation credit. There is no login, serverless,
 custom schema editor or approval UI requirement. Continue this same project in Week 2.
 
 The trainer supplies approved model access, current data/tool policy and private session capture.
